@@ -1,0 +1,72 @@
+{
+	font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0px auto;
+	background-color: #990000;
+}
+
+.contents .startDiv {
+	height: 100%;
+	padding: 7px;
+}
+
+.startButton {
+	height: 50%;
+	width: 100%;
+	background-color: #990000;
+	position: absolute;
+	float: centre;
+	padding: 3px;
+	font-size: 5em;
+	border: 0;
+}
+
+.contents {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	display: none;
+	margin: auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	background-color: #990000;
+	position: absolute;
+	float: centre;
+}
+
+.priceDiv {
+	float: left;
+}
+
+.distanceDiv {
+	float: left;
+}
+
+.content_text {
+	font-weight: bold;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+
+.ui-title {
+	color: #ff9000;
+	font-size: 28px;
+	white-space: nowrap;
+	margin: 0px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-style: solid;
+	border-radius: 25px;
+	padding: 9px;
+}
+
+.setting {
+	width: 20%;
+	height: 20%;
+	z-index:100;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
